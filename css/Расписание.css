@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+}
+.menu{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.579);
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}   
+.linia{
+    height: 4px;
+    background-color: #d86631;
+    width: 150px;
+}
+.linia2{
+    margin-bottom: 10px;
+    height: 3px;
+    background-color: #d86631;
+    width: 900px;
+}
+.lenta{
+    height: 5px;
+    width: 100%;
+    background-color: #d86631;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+a {
+    position: relative;
+    color: #ffffff; 
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+}
+p{
+    line-height: 0.001em;
+}
+a:after {
+    margin-top: 56px;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #d86631;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+a:hover{
+    color: #d86631;
+}
+.block1{
+    height: 1080px;
+    margin-top: 90px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.vihod{
+    height: 200px;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.vihod_2{
+    color: aliceblue; 
+    margin-left: 160px; 
+    margin-right: 190px; 
+    margin-top: 20px;
+    height: 110px;
+}
+.vihod1{
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+.vihod2{
+    width: 25%;
+    text-align: left;
+    float: left;
+}
+.vihod3{
+    width: 20%;
+    text-align: left;
+    float: right;
+}
+.vihod3{
+    width:25%;
+    text-align: left;
+    float: right;
+}
+.res{
+    background-color: #191919;
+    border: none;
+    color: #ffffff;
+    padding: 7px 2px;
+    font-size: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 25px;
+    background-color: #333;
+    margin-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+th{
+    padding: 10px;
+}
